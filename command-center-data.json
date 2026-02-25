@@ -1,0 +1,77 @@
+{
+  "last_updated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+  "timestamp": $(date +%s),
+  "session": {
+    "id": "fredericklaw",
+    "name": "Frederick Law",
+    "email": "fred@frederickpt.com"
+  },
+  "rsi": {
+    status: active,
+    agents: {
+      forager: { status: idle, queue: 48 },
+      forge: { status: idle, queue: 0 },
+      crucible: { status: idle, queue: 48 },
+      warden: { status: idle, queue: 0 }
+    }
+  },
+  "infrastructure": {
+    "core": {
+      "browserUse": { "status": "active", "version": "0.11.13" },
+      "vectorMemory": { "status": "active", "collections": 1 },
+      "mcpClient": { "status": "active", "servers": 6 },
+      "langGraph": { "status": "active", "workflows": 3 },
+      "e2b": { "status": "ready", "api_key": false }
+    },
+    "mcpServers": [
+      { "name": "GitHub", "status": "connected", "user": "fredericklaw" },
+      { "name": "Google", "status": "connected", "services": ["gmail", "calendar"] },
+      { "name": "Filesystem", "status": "active" },
+      { "name": "Fetch", "status": "active" },
+      { "name": "Git", "status": "active" },
+      { "name": "SQLite", "status": "active" }
+    ]
+  },
+  "goal": {
+    "target": 200000,
+    "monthly_target": 16667,
+    "current": 0,
+    "percent_complete": 0,
+    "months_remaining": 10,
+    "needed_per_month": 20000,
+    "status": "behind"
+  },
+  "metrics": {
+    "cpu": "23",
+    "memory": "1.2",
+    "uptime": "2",
+    "active_tasks": 3,
+    "queue_depth": 12
+  },
+  "business": {
+    "pt_clients": [
+      { "name": "Jae", "status": "Active", "sessions": 5, "risk": "low" },
+      { "name": "Chao", "status": "At Risk", "sessions": 5, "risk": "high" },
+      { "name": "Lokey", "status": "At Risk", "sessions": 5, "risk": "high" },
+      { "name": "Construct Fitness", "status": "CRITICAL", "sessions": 0, "risk": "critical" }
+    ],
+    "corp_clients": [
+      { "name": "Dart - OCBC", "status": "Active", "revenue": 0 },
+      { "name": "Dart - Mari", "status": "Active", "revenue": 0 },
+      { "name": "Dart - YouBiz", "status": "Active", "revenue": 0 }
+    ],
+    "actions": [
+      "Call Construct Fitness (0 sessions)",
+      "Call Chao (5 sessions remaining)",
+      "Call Lokey (5 sessions remaining)",
+      "Follow up on 2 new leads",
+      "Post availability on social media"
+    ]
+  },
+  "projects": [
+    { "id": "1", "name": "RSI System", "status": "active", "health": 100, "metric": "Proposals", "value": "12" },
+    { "id": "2", "name": "PT Booking Bot", "status": "active", "health": 100, "metric": "Status", "value": "Ready" },
+    { "id": "3", "name": "Browser-Use", "status": "complete", "health": 100, "metric": "Version", "value": "0.11.13" },
+    { "id": "4", "name": "MCP Suite", "status": "complete", "health": 100, "metric": "Servers", "value": "6" }
+  ]
+}
