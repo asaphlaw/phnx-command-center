@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-25T21:10:11Z",
-  "timestamp": 1772053811,
+  "last_updated": "2026-02-25T21:29:54.220591Z",
+  "timestamp": 1772054994,
   "session": {
     "id": "fredericklaw",
     "name": "Frederick Law",
@@ -9,27 +9,184 @@
   "rsi": {
     "status": "active",
     "agents": {
-      "forager": { "status": "idle", "queue":       54, "lastRun": "" },
-      "forge": { "status": "idle", "queue":        0, "lastRun": "[2026-02-26 05:06:45]" },
-      "crucible": { "status": "idle", "queue":       54, "lastRun": "[2026-02-26 05:06:47]" },
-      "warden": { "status": "idle", "queue":        0, "lastRun": "[2026-02-26 05:06:49]" }
-    }
+      "forager": {
+        "status": "idle",
+        "queue": 54,
+        "lastRun": "2m ago"
+      },
+      "forge": {
+        "status": "idle",
+        "queue": 0,
+        "lastRun": "2m ago"
+      },
+      "crucible": {
+        "status": "idle",
+        "queue": 54,
+        "lastRun": "2m ago"
+      },
+      "warden": {
+        "status": "idle",
+        "queue": 0,
+        "lastRun": "2m ago"
+      }
+    },
+    "proposals": [
+      {
+        "id": "e0de3887",
+        "title": "System Improvement",
+        "type": "error_rate",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "da25abd0",
+        "title": "System Improvement",
+        "type": "process_failure",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "57e650bf",
+        "title": "Deploy MarketingBot Content",
+        "type": "automation",
+        "priority": "high",
+        "impact": "5-10 new leads/week",
+        "complexity": "low",
+        "status": "implemented",
+        "effort_hours": 1
+      },
+      {
+        "id": "e0e9ca4b",
+        "title": "System Improvement",
+        "type": "resource_constraint",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "32b35b13",
+        "title": "Implement 4-Pillar RSI System",
+        "type": "architecture_improvement",
+        "priority": "high",
+        "impact": "Save 10+ hours/week on maintenance",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "11b11a75",
+        "title": "Add Stripe Payment to Booking Bot",
+        "type": "revenue_optimization",
+        "priority": "medium",
+        "impact": "Reduce no-shows by 50%, +$300/month revenue protection",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "e0b413ad",
+        "title": "System Improvement",
+        "type": "error_rate",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "2bb2b022",
+        "title": "Implement 4-Pillar RSI System",
+        "type": "architecture_improvement",
+        "priority": "high",
+        "impact": "Save 10+ hours/week on maintenance",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "9a56f631",
+        "title": "System Improvement",
+        "type": "resource_constraint",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      },
+      {
+        "id": "d7e7f255",
+        "title": "System Improvement",
+        "type": "process_failure",
+        "priority": "medium",
+        "impact": "",
+        "complexity": "medium",
+        "status": "implemented",
+        "effort_hours": 4
+      }
+    ],
+    "proposals_count": 10
   },
   "infrastructure": {
     "core": {
-      "browserUse": { "status": "active", "version": "0.11.13" },
-      "vectorMemory": { "status": "active", "collections": 1 },
-      "mcpClient": { "status": "active", "servers": 6 },
-      "langGraph": { "status": "active", "workflows": 3 },
-      "e2b": { "status": "ready", "api_key": false }
+      "browserUse": {
+        "status": "active",
+        "version": "0.11.13"
+      },
+      "vectorMemory": {
+        "status": "active",
+        "collections": 1
+      },
+      "mcpClient": {
+        "status": "active",
+        "servers": 6
+      },
+      "langGraph": {
+        "status": "active",
+        "workflows": 3
+      },
+      "e2b": {
+        "status": "ready",
+        "api_key": false
+      }
     },
     "mcpServers": [
-      { "name": "GitHub", "status": "connected", "user": "fredericklaw" },
-      { "name": "Google", "status": "connected", "services": ["gmail", "calendar"] },
-      { "name": "Filesystem", "status": "active" },
-      { "name": "Fetch", "status": "active" },
-      { "name": "Git", "status": "active" },
-      { "name": "SQLite", "status": "active" }
+      {
+        "name": "GitHub",
+        "status": "connected",
+        "user": "asaphlaw"
+      },
+      {
+        "name": "Google",
+        "status": "connected",
+        "services": [
+          "gmail",
+          "calendar"
+        ]
+      },
+      {
+        "name": "Filesystem",
+        "status": "active"
+      },
+      {
+        "name": "Fetch",
+        "status": "active"
+      },
+      {
+        "name": "Git",
+        "status": "active"
+      },
+      {
+        "name": "SQLite",
+        "status": "active"
+      }
     ]
   },
   "goal": {
@@ -45,21 +202,57 @@
   "metrics": {
     "cpu": "23",
     "memory": "1.2",
-    "uptime": "2",
+    "uptime": "2h",
     "active_tasks": 3,
     "queue_depth": 108
   },
   "business": {
     "pt_clients": [
-      { "name": "Jae", "status": "Active", "sessions": 5, "risk": "low", "rate": 85 },
-      { "name": "Chao", "status": "At Risk", "sessions": 5, "risk": "high", "rate": 80 },
-      { "name": "Lokey", "status": "At Risk", "sessions": 5, "risk": "high", "rate": 80 },
-      { "name": "Construct Fitness", "status": "CRITICAL", "sessions": 0, "risk": "critical", "rate": 90 }
+      {
+        "name": "Jae",
+        "status": "Active",
+        "sessions": 5,
+        "risk": "low",
+        "rate": 85
+      },
+      {
+        "name": "Chao",
+        "status": "At Risk",
+        "sessions": 5,
+        "risk": "high",
+        "rate": 80
+      },
+      {
+        "name": "Lokey",
+        "status": "At Risk",
+        "sessions": 5,
+        "risk": "high",
+        "rate": 80
+      },
+      {
+        "name": "Construct Fitness",
+        "status": "CRITICAL",
+        "sessions": 0,
+        "risk": "critical",
+        "rate": 90
+      }
     ],
     "corp_clients": [
-      { "name": "Dart - OCBC", "status": "Active", "monthly_revenue": 0 },
-      { "name": "Dart - Mari", "status": "Active", "monthly_revenue": 0 },
-      { "name": "Dart - YouBiz", "status": "Active", "monthly_revenue": 0 }
+      {
+        "name": "Dart - OCBC",
+        "status": "Active",
+        "monthly_revenue": 0
+      },
+      {
+        "name": "Dart - Mari",
+        "status": "Active",
+        "monthly_revenue": 0
+      },
+      {
+        "name": "Dart - YouBiz",
+        "status": "Active",
+        "monthly_revenue": 0
+      }
     ],
     "revenue": {
       "pt_monthly": 3000,
@@ -69,25 +262,98 @@
     },
     "at_risk_revenue": 4500,
     "actions": [
-      { "task": "Call Construct Fitness", "priority": "CRITICAL", "potential_revenue": 2000, "sessions": 0 },
-      { "task": "Call Chao for renewal", "priority": "HIGH", "potential_revenue": 1500, "sessions": 5 },
-      { "task": "Call Lokey for renewal", "priority": "HIGH", "potential_revenue": 1500, "sessions": 5 },
-      { "task": "Post availability on IG", "priority": "MEDIUM", "potential_revenue": 0 },
-      { "task": "Follow up on 2 leads", "priority": "MEDIUM", "potential_revenue": 1000 }
+      {
+        "task": "Call Construct Fitness",
+        "priority": "CRITICAL",
+        "potential_revenue": 2000,
+        "sessions": 0
+      },
+      {
+        "task": "Call Chao for renewal",
+        "priority": "HIGH",
+        "potential_revenue": 1500,
+        "sessions": 5
+      },
+      {
+        "task": "Call Lokey for renewal",
+        "priority": "HIGH",
+        "potential_revenue": 1500,
+        "sessions": 5
+      },
+      {
+        "task": "Post availability on IG",
+        "priority": "MEDIUM",
+        "potential_revenue": 0
+      },
+      {
+        "task": "Follow up on 2 leads",
+        "priority": "MEDIUM",
+        "potential_revenue": 1000
+      }
     ]
   },
   "projects": [
-    { "id": "1", "name": "RSI System", "status": "active", "health": 100, "metric": "Proposals", "value": "12", "category": "Infrastructure" },
-    { "id": "2", "name": "PT Booking Bot", "status": "active", "health": 100, "metric": "Status", "value": "Ready", "category": "Revenue" },
-    { "id": "3", "name": "Browser-Use", "status": "complete", "health": 100, "metric": "Version", "value": "0.11.13", "category": "Infrastructure" },
-    { "id": "4", "name": "MCP Suite", "status": "complete", "health": 100, "metric": "Servers", "value": "6", "category": "Infrastructure" },
-    { "id": "5", "name": "Command Center", "status": "in_progress", "health": 85, "metric": "Progress", "value": "85%", "category": "Infrastructure" },
-    { "id": "6", "name": "Group Training", "status": "planned", "health": 0, "metric": "Revenue", "value": "$2K/mo", "category": "Revenue" },
-    { "id": "7", "name": "Digital Products", "status": "planned", "health": 0, "metric": "Revenue", "value": "$1K/mo", "category": "Revenue" }
+    {
+      "id": "1",
+      "name": "RSI System",
+      "status": "active",
+      "health": 100,
+      "metric": "Proposals",
+      "value": "54",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "2",
+      "name": "PT Booking Bot",
+      "status": "active",
+      "health": 100,
+      "metric": "Status",
+      "value": "Ready",
+      "category": "Revenue"
+    },
+    {
+      "id": "3",
+      "name": "Browser-Use",
+      "status": "complete",
+      "health": 100,
+      "metric": "Version",
+      "value": "0.11.13",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "4",
+      "name": "MCP Suite",
+      "status": "complete",
+      "health": 100,
+      "metric": "Servers",
+      "value": "6",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "5",
+      "name": "Command Center",
+      "status": "in_progress",
+      "health": 85,
+      "metric": "Progress",
+      "value": "85%",
+      "category": "Infrastructure"
+    }
   ],
   "notifications": [
-    { "type": "urgent", "message": "Construct Fitness has 0 sessions remaining", "action": "Call now" },
-    { "type": "warning", "message": "2 clients at risk of churn", "action": "Review" },
-    { "type": "info", "message": "RSI system processed 12 proposals", "action": "View" }
+    {
+      "type": "urgent",
+      "message": "Construct Fitness has 0 sessions remaining",
+      "action": "Call now"
+    },
+    {
+      "type": "warning",
+      "message": "2 clients at risk of churn",
+      "action": "Review"
+    },
+    {
+      "type": "info",
+      "message": "RSI system processed 54 proposals",
+      "action": "View"
+    }
   ]
 }
