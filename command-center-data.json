@@ -1,18 +1,18 @@
 {
-  "last_updated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-  "timestamp": $(date +%s),
+  "last_updated": "2026-02-25T21:10:11Z",
+  "timestamp": 1772053811,
   "session": {
     "id": "fredericklaw",
     "name": "Frederick Law",
     "email": "fred@frederickpt.com"
   },
   "rsi": {
-    status: active,
-    agents: {
-      forager: { status: idle, queue: 48 },
-      forge: { status: idle, queue: 0 },
-      crucible: { status: idle, queue: 48 },
-      warden: { status: idle, queue: 0 }
+    "status": "active",
+    "agents": {
+      "forager": { "status": "idle", "queue":       54, "lastRun": "" },
+      "forge": { "status": "idle", "queue":        0, "lastRun": "[2026-02-26 05:06:45]" },
+      "crucible": { "status": "idle", "queue":       54, "lastRun": "[2026-02-26 05:06:47]" },
+      "warden": { "status": "idle", "queue":        0, "lastRun": "[2026-02-26 05:06:49]" }
     }
   },
   "infrastructure": {
@@ -39,39 +39,55 @@
     "percent_complete": 0,
     "months_remaining": 10,
     "needed_per_month": 20000,
-    "status": "behind"
+    "status": "behind",
+    "urgency": "CRITICAL"
   },
   "metrics": {
     "cpu": "23",
     "memory": "1.2",
     "uptime": "2",
     "active_tasks": 3,
-    "queue_depth": 12
+    "queue_depth": 108
   },
   "business": {
     "pt_clients": [
-      { "name": "Jae", "status": "Active", "sessions": 5, "risk": "low" },
-      { "name": "Chao", "status": "At Risk", "sessions": 5, "risk": "high" },
-      { "name": "Lokey", "status": "At Risk", "sessions": 5, "risk": "high" },
-      { "name": "Construct Fitness", "status": "CRITICAL", "sessions": 0, "risk": "critical" }
+      { "name": "Jae", "status": "Active", "sessions": 5, "risk": "low", "rate": 85 },
+      { "name": "Chao", "status": "At Risk", "sessions": 5, "risk": "high", "rate": 80 },
+      { "name": "Lokey", "status": "At Risk", "sessions": 5, "risk": "high", "rate": 80 },
+      { "name": "Construct Fitness", "status": "CRITICAL", "sessions": 0, "risk": "critical", "rate": 90 }
     ],
     "corp_clients": [
-      { "name": "Dart - OCBC", "status": "Active", "revenue": 0 },
-      { "name": "Dart - Mari", "status": "Active", "revenue": 0 },
-      { "name": "Dart - YouBiz", "status": "Active", "revenue": 0 }
+      { "name": "Dart - OCBC", "status": "Active", "monthly_revenue": 0 },
+      { "name": "Dart - Mari", "status": "Active", "monthly_revenue": 0 },
+      { "name": "Dart - YouBiz", "status": "Active", "monthly_revenue": 0 }
     ],
+    "revenue": {
+      "pt_monthly": 3000,
+      "corp_monthly": 5300,
+      "total_monthly": 8300,
+      "gap_to_goal": 8333
+    },
+    "at_risk_revenue": 4500,
     "actions": [
-      "Call Construct Fitness (0 sessions)",
-      "Call Chao (5 sessions remaining)",
-      "Call Lokey (5 sessions remaining)",
-      "Follow up on 2 new leads",
-      "Post availability on social media"
+      { "task": "Call Construct Fitness", "priority": "CRITICAL", "potential_revenue": 2000, "sessions": 0 },
+      { "task": "Call Chao for renewal", "priority": "HIGH", "potential_revenue": 1500, "sessions": 5 },
+      { "task": "Call Lokey for renewal", "priority": "HIGH", "potential_revenue": 1500, "sessions": 5 },
+      { "task": "Post availability on IG", "priority": "MEDIUM", "potential_revenue": 0 },
+      { "task": "Follow up on 2 leads", "priority": "MEDIUM", "potential_revenue": 1000 }
     ]
   },
   "projects": [
-    { "id": "1", "name": "RSI System", "status": "active", "health": 100, "metric": "Proposals", "value": "12" },
-    { "id": "2", "name": "PT Booking Bot", "status": "active", "health": 100, "metric": "Status", "value": "Ready" },
-    { "id": "3", "name": "Browser-Use", "status": "complete", "health": 100, "metric": "Version", "value": "0.11.13" },
-    { "id": "4", "name": "MCP Suite", "status": "complete", "health": 100, "metric": "Servers", "value": "6" }
+    { "id": "1", "name": "RSI System", "status": "active", "health": 100, "metric": "Proposals", "value": "12", "category": "Infrastructure" },
+    { "id": "2", "name": "PT Booking Bot", "status": "active", "health": 100, "metric": "Status", "value": "Ready", "category": "Revenue" },
+    { "id": "3", "name": "Browser-Use", "status": "complete", "health": 100, "metric": "Version", "value": "0.11.13", "category": "Infrastructure" },
+    { "id": "4", "name": "MCP Suite", "status": "complete", "health": 100, "metric": "Servers", "value": "6", "category": "Infrastructure" },
+    { "id": "5", "name": "Command Center", "status": "in_progress", "health": 85, "metric": "Progress", "value": "85%", "category": "Infrastructure" },
+    { "id": "6", "name": "Group Training", "status": "planned", "health": 0, "metric": "Revenue", "value": "$2K/mo", "category": "Revenue" },
+    { "id": "7", "name": "Digital Products", "status": "planned", "health": 0, "metric": "Revenue", "value": "$1K/mo", "category": "Revenue" }
+  ],
+  "notifications": [
+    { "type": "urgent", "message": "Construct Fitness has 0 sessions remaining", "action": "Call now" },
+    { "type": "warning", "message": "2 clients at risk of churn", "action": "Review" },
+    { "type": "info", "message": "RSI system processed 12 proposals", "action": "View" }
   ]
 }
