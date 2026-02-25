@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "staging_id": "forge_564700a2_1772046917",
+    "proposal_id": "564700a2",
+    "agent": "forge",
+    "agent_id": "8093833a-8ee0-4ae5-a656-616bbf2efa92",
+    "created_at": "2026-02-26T03:15:17.699343",
+    "status": "implemented"
+  },
+  "source_proposal": {
+    "metadata": {
+      "proposal_id": "564700a2",
+      "agent": "forager",
+      "agent_id": "b6978f90-a9a3-4aeb-b767-c0bfc2ec5a97",
+      "created_at": "2026-02-26T03:15:15.538239",
+      "version": "1.0"
+    },
+    "finding": {
+      "type": "resource_constraint",
+      "component": "disk_space",
+      "severity": "medium",
+      "description": "Disk usage at 95%",
+      "suggested_action": "Clean old logs and temp files"
+    },
+    "proposal": {
+      "title": "System Improvement",
+      "description": "Disk usage at 95%",
+      "rationale": "",
+      "expected_impact": "",
+      "implementation_complexity": "medium",
+      "priority": "medium",
+      "estimated_effort_hours": 4
+    },
+    "status": "pending_review",
+    "assigned_to": "forge",
+    "retry_count": 0,
+    "_source_file": "proposal_564700a2_resource_constraint.json"
+  },
+  "implementation": {
+    "staging_path": "/Users/fredericklaw/.openclaw/workspace/rsi/staging/forge_564700a2_1772046917",
+    "files_created": [
+      "cleanup_disk.sh"
+    ],
+    "ready_for_validation": true
+  }
+}

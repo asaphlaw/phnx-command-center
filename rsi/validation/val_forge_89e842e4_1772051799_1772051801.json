@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "validation_id": "val_forge_89e842e4_1772051799_1772051801",
+    "staging_id": "forge_89e842e4_1772051799",
+    "agent": "crucible",
+    "agent_id": "a747a849-f976-4335-aaaa-837117ad5135",
+    "validated_at": "2026-02-26T04:36:41.180238"
+  },
+  "result": {
+    "passed": true,
+    "score": 1.0,
+    "threshold": 0.8,
+    "report": "\u2705 Stripe integration code exists\n\u2705 Imports Stripe library\n\u2705 Has session creation\n\u2705 Uses Checkout Sessions\n\u2705 Setup documentation exists\n\nFinal Score: 1.00/1.0\nStatus: PASS"
+  },
+  "next_action": "warden_review"
+}

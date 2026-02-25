@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "proposal_id": "e69c40ce",
+    "agent": "forager",
+    "agent_id": "9e99436a-1b38-434c-aa32-23e35c43aff6",
+    "created_at": "2026-02-26T03:12:12.152248",
+    "version": "1.0"
+  },
+  "finding": {
+    "type": "automation",
+    "title": "Deploy MarketingBot Content",
+    "description": "7 posts are ready but not published. Implement auto-posting to Instagram/LinkedIn",
+    "rationale": "Lost lead generation opportunity - 0 new leads from content today",
+    "expected_impact": "5-10 new leads/week",
+    "implementation_complexity": "low",
+    "priority": "high"
+  },
+  "proposal": {
+    "title": "Deploy MarketingBot Content",
+    "description": "7 posts are ready but not published. Implement auto-posting to Instagram/LinkedIn",
+    "rationale": "Lost lead generation opportunity - 0 new leads from content today",
+    "expected_impact": "5-10 new leads/week",
+    "implementation_complexity": "low",
+    "priority": "high",
+    "estimated_effort_hours": 1
+  },
+  "status": "implemented",
+  "assigned_to": "forge",
+  "retry_count": 0,
+  "implementation": {
+    "staging_id": "forge_e69c40ce_1772046734",
+    "implemented_at": "2026-02-26T03:12:14.636923",
+    "implemented_by": "9432204b-ae35-4448-a5d4-654124c1cb51"
+  }
+}

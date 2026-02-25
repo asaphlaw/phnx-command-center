@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "validation_id": "val_forge_f8c609e6_1772046484_1772046486",
+    "staging_id": "forge_f8c609e6_1772046484",
+    "agent": "crucible",
+    "agent_id": "5d0e3831-024a-426f-9bf7-ff1a5738e695",
+    "validated_at": "2026-02-26T03:08:06.427552"
+  },
+  "result": {
+    "passed": true,
+    "score": 0.9,
+    "threshold": 0.8,
+    "report": "\u2705 Cleanup script exists\n\u2705 Uses find command\n\u2705 Has deletion logic\n\u2705 Uses age filtering\n\nFinal Score: 0.90/1.0\nStatus: PASS"
+  },
+  "next_action": "warden_review"
+}

@@ -1,0 +1,23 @@
+#!/bin/bash
+# Browser-Use Setup Script
+
+echo "========================================"
+echo "🌐 BROWSER-USE SETUP"
+echo "========================================"
+echo ""
+echo "Browser-Use requires an API key for both local AND cloud modes."
+echo ""
+echo "Get your free API key:"
+echo "👉 https://cloud.browser-use.com/new-api-key"
+echo ""
+echo "New signups get $10 free credits."
+echo ""
+echo "Once you have your key, run:"
+echo "  export BROWSER_USE_API_KEY='your-key-here'"
+echo ""
+echo "Then test with:"
+echo "  cd ~/.openclaw/workspace/browser-use-setup"
+echo "  source .venv/bin/activate"
+echo "  python3 test_with_key.py"
+echo ""
+echo "========================================"

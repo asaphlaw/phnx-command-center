@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "validation_id": "val_forge_45451985_1772047784_1772047786",
+    "staging_id": "forge_45451985_1772047784",
+    "agent": "crucible",
+    "agent_id": "bfa401a5-4b69-45d8-b12a-40da29416805",
+    "validated_at": "2026-02-26T03:29:46.858778"
+  },
+  "result": {
+    "passed": false,
+    "score": 0.7999999999999999,
+    "threshold": 0.8,
+    "report": "\u2705 Analysis script exists\n\u2705 Uses grep for filtering\n\u2705 Searches for error patterns\n\nFinal Score: 0.80/1.0\nStatus: FAIL"
+  },
+  "next_action": "forge_rewrite"
+}

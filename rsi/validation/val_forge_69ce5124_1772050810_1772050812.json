@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "validation_id": "val_forge_69ce5124_1772050810_1772050812",
+    "staging_id": "forge_69ce5124_1772050810",
+    "agent": "crucible",
+    "agent_id": "1a66abbf-b42f-4efa-a376-fb526f95c627",
+    "validated_at": "2026-02-26T04:20:12.852391"
+  },
+  "result": {
+    "passed": true,
+    "score": 0.8,
+    "threshold": 0.8,
+    "report": "\u2139\ufe0f  Generic validation (unknown type)\n\u2705 Contains 2 files\n\nFinal Score: 0.80/1.0\nStatus: PASS"
+  },
+  "next_action": "warden_review"
+}

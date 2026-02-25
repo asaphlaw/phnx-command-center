@@ -1,0 +1,312 @@
+2026-02-26 03:03:15,488 - CRUCIBLE - INFO - Crucible initialized [ID: 967d532c-dd04-4401-a2c7-8a78277baf7b]
+2026-02-26 03:03:15,488 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 03:03:15,488 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:03:15,488 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 03:03:15,488 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:03:15,488 - CRUCIBLE - INFO - Found unvalidated implementation: forge_1741eecf_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_0adab403_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_52af93ba_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_b8be17e3_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_9ce4bf56_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_1f8a3df5_1772046192
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_ece43b72_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_90ce59ca_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_5c7779c4_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_e080167d_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_d0b3b588_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Found unvalidated implementation: forge_6c072594_1772046193
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Validating 12 implementations...
+2026-02-26 03:03:15,489 - CRUCIBLE - INFO - Validating: forge_1741eecf_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validation report created: val_forge_1741eecf_1772046193_1772046195
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_1741eecf_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validating: forge_0adab403_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validation report created: val_forge_0adab403_1772046193_1772046195
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_0adab403_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validating: forge_52af93ba_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validation report created: val_forge_52af93ba_1772046193_1772046195
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_52af93ba_1772046193
+2026-02-26 03:03:15,490 - CRUCIBLE - INFO - Validating: forge_b8be17e3_1772046193
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validation report created: val_forge_b8be17e3_1772046193_1772046195
+2026-02-26 03:03:15,491 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_b8be17e3_1772046193
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validating: forge_9ce4bf56_1772046193
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validation report created: val_forge_9ce4bf56_1772046193_1772046195
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_9ce4bf56_1772046193
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validating: forge_1f8a3df5_1772046192
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validation report created: val_forge_1f8a3df5_1772046192_1772046195
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_1f8a3df5_1772046192
+2026-02-26 03:03:15,491 - CRUCIBLE - INFO - Validating: forge_ece43b72_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validation report created: val_forge_ece43b72_1772046193_1772046195
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_ece43b72_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validating: forge_90ce59ca_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validation report created: val_forge_90ce59ca_1772046193_1772046195
+2026-02-26 03:03:15,492 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_90ce59ca_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validating: forge_5c7779c4_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validation report created: val_forge_5c7779c4_1772046193_1772046195
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_5c7779c4_1772046193
+2026-02-26 03:03:15,492 - CRUCIBLE - INFO - Validating: forge_e080167d_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validation report created: val_forge_e080167d_1772046193_1772046195
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_e080167d_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validating: forge_d0b3b588_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validation report created: val_forge_d0b3b588_1772046193_1772046195
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_d0b3b588_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validating: forge_6c072594_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validation report created: val_forge_6c072594_1772046193_1772046195
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_6c072594_1772046193
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Passed: 10
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Failed: 2
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - Validation reports: 12
+2026-02-26 03:03:15,493 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:08:06,422 - CRUCIBLE - INFO - Crucible initialized [ID: 5d0e3831-024a-426f-9bf7-ff1a5738e695]
+2026-02-26 03:08:06,422 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 03:08:06,422 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:08:06,422 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 03:08:06,422 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:08:06,423 - CRUCIBLE - INFO - Found unvalidated implementation: forge_3868ef10_1772046484
+2026-02-26 03:08:06,423 - CRUCIBLE - INFO - Found unvalidated implementation: forge_2927098f_1772046484
+2026-02-26 03:08:06,423 - CRUCIBLE - INFO - Found unvalidated implementation: forge_b7380742_1772046484
+2026-02-26 03:08:06,424 - CRUCIBLE - INFO - Found unvalidated implementation: forge_dcf136e2_1772046484
+2026-02-26 03:08:06,424 - CRUCIBLE - INFO - Found unvalidated implementation: forge_8c061a7f_1772046484
+2026-02-26 03:08:06,424 - CRUCIBLE - INFO - Found unvalidated implementation: forge_f8c609e6_1772046484
+2026-02-26 03:08:06,425 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 03:08:06,425 - CRUCIBLE - INFO - Validating: forge_3868ef10_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validation report created: val_forge_3868ef10_1772046484_1772046486
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_3868ef10_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validating: forge_2927098f_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validation report created: val_forge_2927098f_1772046484_1772046486
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_2927098f_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validating: forge_b7380742_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validation report created: val_forge_b7380742_1772046484_1772046486
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_b7380742_1772046484
+2026-02-26 03:08:06,426 - CRUCIBLE - INFO - Validating: forge_dcf136e2_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validation report created: val_forge_dcf136e2_1772046484_1772046486
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_dcf136e2_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validating: forge_8c061a7f_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validation report created: val_forge_8c061a7f_1772046484_1772046486
+2026-02-26 03:08:06,427 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_8c061a7f_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validating: forge_f8c609e6_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validation report created: val_forge_f8c609e6_1772046484_1772046486
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_f8c609e6_1772046484
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - Validation reports: 18
+2026-02-26 03:08:06,427 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:12:16,798 - CRUCIBLE - INFO - Crucible initialized [ID: 11486762-32db-4db0-885e-5b3d89299f4b]
+2026-02-26 03:12:16,798 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 03:12:16,798 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:12:16,798 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 03:12:16,798 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:12:16,799 - CRUCIBLE - INFO - Found unvalidated implementation: forge_e69c40ce_1772046734
+2026-02-26 03:12:16,801 - CRUCIBLE - INFO - Found unvalidated implementation: forge_d7c00a63_1772046734
+2026-02-26 03:12:16,801 - CRUCIBLE - INFO - Found unvalidated implementation: forge_0296f899_1772046734
+2026-02-26 03:12:16,802 - CRUCIBLE - INFO - Found unvalidated implementation: forge_53387f2b_1772046734
+2026-02-26 03:12:16,802 - CRUCIBLE - INFO - Found unvalidated implementation: forge_6f27fdda_1772046734
+2026-02-26 03:12:16,803 - CRUCIBLE - INFO - Found unvalidated implementation: forge_a97c4e9c_1772046734
+2026-02-26 03:12:16,803 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 03:12:16,803 - CRUCIBLE - INFO - Validating: forge_e69c40ce_1772046734
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - Validation report created: val_forge_e69c40ce_1772046734_1772046736
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_e69c40ce_1772046734
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - Validating: forge_d7c00a63_1772046734
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - Validation report created: val_forge_d7c00a63_1772046734_1772046736
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_d7c00a63_1772046734
+2026-02-26 03:12:16,804 - CRUCIBLE - INFO - Validating: forge_0296f899_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validation report created: val_forge_0296f899_1772046734_1772046736
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_0296f899_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validating: forge_53387f2b_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validation report created: val_forge_53387f2b_1772046734_1772046736
+2026-02-26 03:12:16,805 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_53387f2b_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validating: forge_6f27fdda_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validation report created: val_forge_6f27fdda_1772046734_1772046736
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_6f27fdda_1772046734
+2026-02-26 03:12:16,805 - CRUCIBLE - INFO - Validating: forge_a97c4e9c_1772046734
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - Validation report created: val_forge_a97c4e9c_1772046734_1772046736
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_a97c4e9c_1772046734
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - Validation reports: 24
+2026-02-26 03:12:16,806 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:15:19,883 - CRUCIBLE - INFO - Crucible initialized [ID: 50bff4de-a5a0-4816-82b0-6bfa4dc16488]
+2026-02-26 03:15:19,883 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 03:15:19,883 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:15:19,883 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 03:15:19,883 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:15:19,884 - CRUCIBLE - INFO - Found unvalidated implementation: forge_609aaf6a_1772046917
+2026-02-26 03:15:19,886 - CRUCIBLE - INFO - Found unvalidated implementation: forge_db1ea6b9_1772046917
+2026-02-26 03:15:19,886 - CRUCIBLE - INFO - Found unvalidated implementation: forge_95923fd5_1772046917
+2026-02-26 03:15:19,886 - CRUCIBLE - INFO - Found unvalidated implementation: forge_1860a670_1772046917
+2026-02-26 03:15:19,887 - CRUCIBLE - INFO - Found unvalidated implementation: forge_59cbc829_1772046917
+2026-02-26 03:15:19,887 - CRUCIBLE - INFO - Found unvalidated implementation: forge_564700a2_1772046917
+2026-02-26 03:15:19,888 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 03:15:19,888 - CRUCIBLE - INFO - Validating: forge_609aaf6a_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validation report created: val_forge_609aaf6a_1772046917_1772046919
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_609aaf6a_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validating: forge_db1ea6b9_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validation report created: val_forge_db1ea6b9_1772046917_1772046919
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_db1ea6b9_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validating: forge_95923fd5_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validation report created: val_forge_95923fd5_1772046917_1772046919
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_95923fd5_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validating: forge_1860a670_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validation report created: val_forge_1860a670_1772046917_1772046919
+2026-02-26 03:15:19,889 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_1860a670_1772046917
+2026-02-26 03:15:19,889 - CRUCIBLE - INFO - Validating: forge_59cbc829_1772046917
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Validation report created: val_forge_59cbc829_1772046917_1772046919
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_59cbc829_1772046917
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Validating: forge_564700a2_1772046917
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Validation report created: val_forge_564700a2_1772046917_1772046919
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_564700a2_1772046917
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - Validation reports: 30
+2026-02-26 03:15:19,890 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:29:46,848 - CRUCIBLE - INFO - Crucible initialized [ID: bfa401a5-4b69-45d8-b12a-40da29416805]
+2026-02-26 03:29:46,848 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 03:29:46,848 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:29:46,848 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 03:29:46,848 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:29:46,852 - CRUCIBLE - INFO - Found unvalidated implementation: forge_6d65d714_1772047784
+2026-02-26 03:29:46,853 - CRUCIBLE - INFO - Found unvalidated implementation: forge_45451985_1772047784
+2026-02-26 03:29:46,854 - CRUCIBLE - INFO - Found unvalidated implementation: forge_ae8574f0_1772047784
+2026-02-26 03:29:46,854 - CRUCIBLE - INFO - Found unvalidated implementation: forge_b4d86c84_1772047784
+2026-02-26 03:29:46,854 - CRUCIBLE - INFO - Found unvalidated implementation: forge_d1124353_1772047784
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Found unvalidated implementation: forge_952de058_1772047784
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Validating: forge_6d65d714_1772047784
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Validation report created: val_forge_6d65d714_1772047784_1772047786
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_6d65d714_1772047784
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Validating: forge_45451985_1772047784
+2026-02-26 03:29:46,858 - CRUCIBLE - INFO - Validation report created: val_forge_45451985_1772047784_1772047786
+2026-02-26 03:29:46,859 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_45451985_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validating: forge_ae8574f0_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validation report created: val_forge_ae8574f0_1772047784_1772047786
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_ae8574f0_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validating: forge_b4d86c84_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validation report created: val_forge_b4d86c84_1772047784_1772047786
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_b4d86c84_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validating: forge_d1124353_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validation report created: val_forge_d1124353_1772047784_1772047786
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_d1124353_1772047784
+2026-02-26 03:29:46,859 - CRUCIBLE - INFO - Validating: forge_952de058_1772047784
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - Validation report created: val_forge_952de058_1772047784_1772047786
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_952de058_1772047784
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - ============================================================
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - Validation reports: 36
+2026-02-26 03:29:46,860 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:20:12,841 - CRUCIBLE - INFO - Crucible initialized [ID: 1a66abbf-b42f-4efa-a376-fb526f95c627]
+2026-02-26 04:20:12,842 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 04:20:12,842 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:20:12,842 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 04:20:12,842 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:20:12,843 - CRUCIBLE - INFO - Found unvalidated implementation: forge_0ddb7da5_1772050810
+2026-02-26 04:20:12,844 - CRUCIBLE - INFO - Found unvalidated implementation: forge_c479ca12_1772050810
+2026-02-26 04:20:12,845 - CRUCIBLE - INFO - Found unvalidated implementation: forge_81e8006c_1772050810
+2026-02-26 04:20:12,847 - CRUCIBLE - INFO - Found unvalidated implementation: forge_69ce5124_1772050810
+2026-02-26 04:20:12,848 - CRUCIBLE - INFO - Found unvalidated implementation: forge_7a93b8cb_1772050810
+2026-02-26 04:20:12,848 - CRUCIBLE - INFO - Found unvalidated implementation: forge_7a6c2678_1772050810
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - Validating: forge_0ddb7da5_1772050810
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - Validation report created: val_forge_0ddb7da5_1772050810_1772050812
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_0ddb7da5_1772050810
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - Validating: forge_c479ca12_1772050810
+2026-02-26 04:20:12,851 - CRUCIBLE - INFO - Validation report created: val_forge_c479ca12_1772050810_1772050812
+2026-02-26 04:20:12,852 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_c479ca12_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validating: forge_81e8006c_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validation report created: val_forge_81e8006c_1772050810_1772050812
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_81e8006c_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validating: forge_69ce5124_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validation report created: val_forge_69ce5124_1772050810_1772050812
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_69ce5124_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validating: forge_7a93b8cb_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validation report created: val_forge_7a93b8cb_1772050810_1772050812
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_7a93b8cb_1772050810
+2026-02-26 04:20:12,852 - CRUCIBLE - INFO - Validating: forge_7a6c2678_1772050810
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - Validation report created: val_forge_7a6c2678_1772050810_1772050812
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_7a6c2678_1772050810
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - Validation reports: 42
+2026-02-26 04:20:12,853 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:36:41,170 - CRUCIBLE - INFO - Crucible initialized [ID: a747a849-f976-4335-aaaa-837117ad5135]
+2026-02-26 04:36:41,170 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 04:36:41,170 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:36:41,170 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 04:36:41,170 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:36:41,172 - CRUCIBLE - INFO - Found unvalidated implementation: forge_d7e7f255_1772051799
+2026-02-26 04:36:41,172 - CRUCIBLE - INFO - Found unvalidated implementation: forge_daa7428a_1772051799
+2026-02-26 04:36:41,173 - CRUCIBLE - INFO - Found unvalidated implementation: forge_89e842e4_1772051799
+2026-02-26 04:36:41,174 - CRUCIBLE - INFO - Found unvalidated implementation: forge_2bb2b022_1772051799
+2026-02-26 04:36:41,176 - CRUCIBLE - INFO - Found unvalidated implementation: forge_e0b413ad_1772051799
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - Found unvalidated implementation: forge_9a56f631_1772051799
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - Validating: forge_d7e7f255_1772051799
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - Validation report created: val_forge_d7e7f255_1772051799_1772051801
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_d7e7f255_1772051799
+2026-02-26 04:36:41,179 - CRUCIBLE - INFO - Validating: forge_daa7428a_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validation report created: val_forge_daa7428a_1772051799_1772051801
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_daa7428a_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validating: forge_89e842e4_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validation report created: val_forge_89e842e4_1772051799_1772051801
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_89e842e4_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validating: forge_2bb2b022_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validation report created: val_forge_2bb2b022_1772051799_1772051801
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_2bb2b022_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validating: forge_e0b413ad_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validation report created: val_forge_e0b413ad_1772051799_1772051801
+2026-02-26 04:36:41,180 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_e0b413ad_1772051799
+2026-02-26 04:36:41,180 - CRUCIBLE - INFO - Validating: forge_9a56f631_1772051799
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - Validation report created: val_forge_9a56f631_1772051799_1772051801
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_9a56f631_1772051799
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - ============================================================
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - Validation reports: 48
+2026-02-26 04:36:41,181 - CRUCIBLE - INFO - ============================================================
+2026-02-26 05:06:47,413 - CRUCIBLE - INFO - Crucible initialized [ID: f2414bac-b655-4765-859c-190a0e8d8ee4]
+2026-02-26 05:06:47,414 - CRUCIBLE - WARNING - ⚠️  Docker isolation recommended but not enforced in this version
+2026-02-26 05:06:47,414 - CRUCIBLE - INFO - ============================================================
+2026-02-26 05:06:47,414 - CRUCIBLE - INFO - CRUCIBLE CYCLE STARTED
+2026-02-26 05:06:47,414 - CRUCIBLE - INFO - ============================================================
+2026-02-26 05:06:47,416 - CRUCIBLE - INFO - Found unvalidated implementation: forge_e0de3887_1772053605
+2026-02-26 05:06:47,416 - CRUCIBLE - INFO - Found unvalidated implementation: forge_e0e9ca4b_1772053605
+2026-02-26 05:06:47,416 - CRUCIBLE - INFO - Found unvalidated implementation: forge_11b11a75_1772053605
+2026-02-26 05:06:47,419 - CRUCIBLE - INFO - Found unvalidated implementation: forge_da25abd0_1772053605
+2026-02-26 05:06:47,419 - CRUCIBLE - INFO - Found unvalidated implementation: forge_57e650bf_1772053605
+2026-02-26 05:06:47,423 - CRUCIBLE - INFO - Found unvalidated implementation: forge_32b35b13_1772053605
+2026-02-26 05:06:47,424 - CRUCIBLE - INFO - Validating 6 implementations...
+2026-02-26 05:06:47,424 - CRUCIBLE - INFO - Validating: forge_e0de3887_1772053605
+2026-02-26 05:06:47,424 - CRUCIBLE - INFO - Validation report created: val_forge_e0de3887_1772053605_1772053607
+2026-02-26 05:06:47,424 - CRUCIBLE - WARNING - ❌ FAIL (score: 0.80): forge_e0de3887_1772053605
+2026-02-26 05:06:47,424 - CRUCIBLE - INFO - Validating: forge_e0e9ca4b_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validation report created: val_forge_e0e9ca4b_1772053605_1772053607
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_e0e9ca4b_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validating: forge_11b11a75_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validation report created: val_forge_11b11a75_1772053605_1772053607
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - ✅ PASS (score: 1.00): forge_11b11a75_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validating: forge_da25abd0_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validation report created: val_forge_da25abd0_1772053605_1772053607
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - ✅ PASS (score: 0.90): forge_da25abd0_1772053605
+2026-02-26 05:06:47,425 - CRUCIBLE - INFO - Validating: forge_57e650bf_1772053605
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Validation report created: val_forge_57e650bf_1772053605_1772053607
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_57e650bf_1772053605
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Validating: forge_32b35b13_1772053605
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Validation report created: val_forge_32b35b13_1772053605_1772053607
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - ✅ PASS (score: 0.80): forge_32b35b13_1772053605
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - ============================================================
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - CRUCIBLE CYCLE COMPLETE
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Passed: 5
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Failed: 1
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - Validation reports: 54
+2026-02-26 05:06:47,426 - CRUCIBLE - INFO - ============================================================

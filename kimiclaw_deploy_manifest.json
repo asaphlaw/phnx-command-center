@@ -1,0 +1,38 @@
+{
+  "name": "PHNX-Persistent-v2",
+  "version": "2.0.0",
+  "deployment": {
+    "type": "persistent",
+    "runtime": "python3.11",
+    "entry_point": "run_phnx_persistent.sh",
+    "working_directory": "~/.openclaw/workspace"
+  },
+  "resources": {
+    "memory": "2Gi",
+    "cpu": "1",
+    "storage": "10Gi"
+  },
+  "networking": {
+    "keep_alive": true,
+    "heartbeat_interval": 30,
+    "auto_reconnect": true,
+    "max_reconnect_attempts": 10
+  },
+  "persistence": {
+    "session_state": true,
+    "vector_memory": true,
+    "file_system": true,
+    "database": true
+  },
+  "scaling": {
+    "min_instances": 1,
+    "max_instances": 1,
+    "auto_scale": false
+  },
+  "environment_variables": [
+    "BROWSER_USE_API_KEY",
+    "GITHUB_TOKEN",
+    "GITHUB_PERSONAL_ACCESS_TOKEN",
+    "OPENCLAW_WORKSPACE"
+  ]
+}

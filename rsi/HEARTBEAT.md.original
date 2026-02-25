@@ -1,0 +1,126 @@
+# HEARTBEAT.md - RSI System Trigger
+# 
+# This file triggers the 4-Pillar RSI Architecture on a scheduled loop.
+# OpenClaw's heartbeat mechanism reads this file and executes the instructions.
+#
+# Schedule: Every 60 minutes
+# Purpose: Continuous self-improvement and self-healing
+
+## HEARTBEAT INSTRUCTIONS
+
+**Every 60 minutes, execute the following:**
+
+### Phase 1: FORAGER (Research)
+```bash
+cd /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi
+python3 forager/forager_agent.py
+```
+**Purpose:** Scan system for inefficiencies and research optimizations
+**Output:** Proposals saved to `proposals/`
+
+### Phase 2: FORGE (Development)
+```bash
+cd /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi
+python3 forge/forge_agent.py
+```
+**Purpose:** Implement proposals from Forager, write code fixes
+**Output:** Implementations saved to `staging/`
+
+### Phase 3: CRUCIBLE (Validation)
+```bash
+cd /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi
+python3 crucible/crucible_agent.py
+```
+**Purpose:** Validate all changes in isolated environment
+**Output:** Validation reports saved to `validation/`
+
+### Phase 4: WARDEN (Governance)
+```bash
+cd /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi
+python3 warden/warden_agent.py
+```
+**Purpose:** Final review and production deployment
+**Output:** Approved changes deployed to live system
+
+---
+
+## EXECUTION SEQUENCE
+
+**The RSI loop runs in this order:**
+
+1. **Forager** → Discovers improvements → Saves to `proposals/`
+2. **Forge** → Implements proposals → Saves to `staging/`
+3. **Crucible** → Validates changes → Saves to `validation/`
+4. **Warden** → Deploys approved changes → Updates live system
+
+**Between phases:** Agents poll their input directories (file-based state machine)
+
+---
+
+## SAFETY MECHANISMS
+
+### Circuit Breakers
+- **Max proposals per cycle:** 10 (prevents overload)
+- **Max deployments per hour:** 3 (prevents rapid changes)
+- **Auto-halt on Constitution violation:** Enabled
+- **Human escalation on:** Score < 0.8 after 5 retries
+
+### Monitoring
+- **Log location:** `rsi/logs/`
+- **Audit trail:** `rsi/logs/warden_audit_*.jsonl`
+- **Escalation alerts:** Telegram @phnx01bot
+
+---
+
+## MANUAL OVERRIDE
+
+**To manually trigger the RSI loop:**
+```bash
+# Run all 4 pillars sequentially
+cd /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi
+python3 orchestrate.py --full-cycle
+
+# Or run individual pillars
+python3 forager/forager_agent.py    # Research only
+python3 forge/forge_agent.py        # Development only
+python3 crucible/crucible_agent.py  # Validation only
+python3 warden/warden_agent.py      # Deployment only
+```
+
+---
+
+## STATUS CHECK
+
+**To check RSI system status:**
+```bash
+# View all agent statuses
+python3 orchestrate.py --status
+
+# View recent proposals
+ls -la proposals/ | tail -10
+
+# View recent deployments
+ls -la deployed/ | tail -10
+
+# View audit log
+tail -50 logs/warden_audit_$(date +%Y-%m-%d).jsonl
+```
+
+---
+
+## EMERGENCY STOP
+
+**To halt the RSI system:**
+```bash
+# Disable heartbeat
+touch /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi/.halt
+
+# To resume:
+rm /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/rsi/.halt
+```
+
+---
+
+*This HEARTBEAT.md is read by OpenClaw's heartbeat daemon.*
+*Last updated: 2026-02-25*
+*RSI Version: 1.0.0*

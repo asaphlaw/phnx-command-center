@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "proposal_id": "ced4bf6f",
+    "agent": "forager",
+    "agent_id": "424e5440-dd1b-48af-84e7-5e10b8fcf469",
+    "created_at": "2026-02-26T03:02:34.095053",
+    "version": "1.0"
+  },
+  "finding": {
+    "type": "process_failure",
+    "component": "concierge_bot",
+    "severity": "high",
+    "description": "Booking bot not running",
+    "suggested_action": "Restart fred_pt_bot.py"
+  },
+  "proposal": {
+    "title": "System Improvement",
+    "description": "Booking bot not running",
+    "rationale": "",
+    "expected_impact": "",
+    "implementation_complexity": "medium",
+    "priority": "medium",
+    "estimated_effort_hours": 4
+  },
+  "status": "pending_review",
+  "assigned_to": "forge",
+  "retry_count": 0
+}

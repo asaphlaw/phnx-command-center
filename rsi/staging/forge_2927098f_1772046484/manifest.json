@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "staging_id": "forge_2927098f_1772046484",
+    "proposal_id": "2927098f",
+    "agent": "forge",
+    "agent_id": "abf0df2b-e89a-4650-a4a0-bc3184111cf9",
+    "created_at": "2026-02-26T03:08:04.278811",
+    "status": "implemented"
+  },
+  "source_proposal": {
+    "metadata": {
+      "proposal_id": "2927098f",
+      "agent": "forager",
+      "agent_id": "99f3ca9b-7832-4eb5-8da4-88bebf5a2229",
+      "created_at": "2026-02-26T03:08:02.125761",
+      "version": "1.0"
+    },
+    "finding": {
+      "type": "automation",
+      "title": "Deploy MarketingBot Content",
+      "description": "7 posts are ready but not published. Implement auto-posting to Instagram/LinkedIn",
+      "rationale": "Lost lead generation opportunity - 0 new leads from content today",
+      "expected_impact": "5-10 new leads/week",
+      "implementation_complexity": "low",
+      "priority": "high"
+    },
+    "proposal": {
+      "title": "Deploy MarketingBot Content",
+      "description": "7 posts are ready but not published. Implement auto-posting to Instagram/LinkedIn",
+      "rationale": "Lost lead generation opportunity - 0 new leads from content today",
+      "expected_impact": "5-10 new leads/week",
+      "implementation_complexity": "low",
+      "priority": "high",
+      "estimated_effort_hours": 1
+    },
+    "status": "pending_review",
+    "assigned_to": "forge",
+    "retry_count": 0,
+    "_source_file": "proposal_2927098f_automation.json"
+  },
+  "implementation": {
+    "staging_path": "/Users/fredericklaw/.openclaw/workspace/rsi/staging/forge_2927098f_1772046484",
+    "files_created": [
+      "deploy_content.sh"
+    ],
+    "ready_for_validation": true
+  }
+}

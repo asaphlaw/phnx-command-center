@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "validation_id": "val_forge_da25abd0_1772053605_1772053607",
+    "staging_id": "forge_da25abd0_1772053605",
+    "agent": "crucible",
+    "agent_id": "f2414bac-b655-4765-859c-190a0e8d8ee4",
+    "validated_at": "2026-02-26T05:06:47.425657"
+  },
+  "result": {
+    "passed": true,
+    "score": 0.9000000000000001,
+    "threshold": 0.8,
+    "report": "\u2705 Restart script exists\n\u2705 Script is executable\n\u2705 Contains process management logic\n\u2705 Has timing delays\n\u2705 Monitor script exists\n\nFinal Score: 0.90/1.0\nStatus: PASS"
+  },
+  "next_action": "warden_review"
+}

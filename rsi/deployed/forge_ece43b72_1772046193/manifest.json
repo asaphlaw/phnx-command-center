@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "staging_id": "forge_ece43b72_1772046193",
+    "proposal_id": "ece43b72",
+    "agent": "forge",
+    "agent_id": "3caf9910-a241-49f7-9758-a34912c2848d",
+    "created_at": "2026-02-26T03:03:13.327462",
+    "status": "implemented"
+  },
+  "source_proposal": {
+    "metadata": {
+      "proposal_id": "ece43b72",
+      "agent": "forager",
+      "agent_id": "e18b93d1-0c75-471e-b7d3-50768ff262c6",
+      "created_at": "2026-02-26T03:03:10.717543",
+      "version": "1.0"
+    },
+    "finding": {
+      "type": "process_failure",
+      "component": "concierge_bot",
+      "severity": "high",
+      "description": "Booking bot not running",
+      "suggested_action": "Restart fred_pt_bot.py"
+    },
+    "proposal": {
+      "title": "System Improvement",
+      "description": "Booking bot not running",
+      "rationale": "",
+      "expected_impact": "",
+      "implementation_complexity": "medium",
+      "priority": "medium",
+      "estimated_effort_hours": 4
+    },
+    "status": "pending_review",
+    "assigned_to": "forge",
+    "retry_count": 0,
+    "_source_file": "proposal_ece43b72_process_failure.json"
+  },
+  "implementation": {
+    "staging_path": "/Users/fredericklaw/.openclaw/workspace/rsi/staging/forge_ece43b72_1772046193",
+    "files_created": [
+      "monitor_concierge.sh",
+      "restart_concierge.sh"
+    ],
+    "ready_for_validation": true
+  }
+}

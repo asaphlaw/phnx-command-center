@@ -1,0 +1,32 @@
+{
+  "bot_name": "PHNX-Persistent",
+  "deployment_mode": "persistent",
+  "keep_alive": {
+    "enabled": true,
+    "interval_seconds": 30,
+    "heartbeat_type": "ping"
+  },
+  "auto_reconnect": {
+    "enabled": true,
+    "max_attempts": 10,
+    "backoff_strategy": "exponential",
+    "initial_delay_ms": 1000,
+    "max_delay_ms": 30000
+  },
+  "session": {
+    "persist_state": true,
+    "state_location": "~/.openclaw/workspace/phnx_session_state",
+    "memory_persistence": true,
+    "vector_db_sync": true
+  },
+  "timeouts": {
+    "idle_timeout_seconds": 0,
+    "absolute_timeout_seconds": 0,
+    "tool_execution_timeout_seconds": 300
+  },
+  "resources": {
+    "memory_limit_mb": 2048,
+    "cpu_limit": 1.0,
+    "auto_scale": true
+  }
+}

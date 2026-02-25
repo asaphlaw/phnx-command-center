@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "proposal_id": "983dfd6b",
+    "agent": "forager",
+    "agent_id": "424e5440-dd1b-48af-84e7-5e10b8fcf469",
+    "created_at": "2026-02-26T03:02:34.095276",
+    "version": "1.0"
+  },
+  "finding": {
+    "type": "resource_constraint",
+    "component": "disk_space",
+    "severity": "medium",
+    "description": "Disk usage at 95%",
+    "suggested_action": "Clean old logs and temp files"
+  },
+  "proposal": {
+    "title": "System Improvement",
+    "description": "Disk usage at 95%",
+    "rationale": "",
+    "expected_impact": "",
+    "implementation_complexity": "medium",
+    "priority": "medium",
+    "estimated_effort_hours": 4
+  },
+  "status": "pending_review",
+  "assigned_to": "forge",
+  "retry_count": 0
+}

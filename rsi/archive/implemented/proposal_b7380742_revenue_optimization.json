@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "proposal_id": "b7380742",
+    "agent": "forager",
+    "agent_id": "99f3ca9b-7832-4eb5-8da4-88bebf5a2229",
+    "created_at": "2026-02-26T03:08:02.125909",
+    "version": "1.0"
+  },
+  "finding": {
+    "type": "revenue_optimization",
+    "title": "Add Stripe Payment to Booking Bot",
+    "description": "Accept booking deposits to reduce no-shows",
+    "rationale": "Currently no payment on booking - clients can no-show without consequence",
+    "expected_impact": "Reduce no-shows by 50%, +$300/month revenue protection",
+    "implementation_complexity": "medium",
+    "priority": "medium"
+  },
+  "proposal": {
+    "title": "Add Stripe Payment to Booking Bot",
+    "description": "Accept booking deposits to reduce no-shows",
+    "rationale": "Currently no payment on booking - clients can no-show without consequence",
+    "expected_impact": "Reduce no-shows by 50%, +$300/month revenue protection",
+    "implementation_complexity": "medium",
+    "priority": "medium",
+    "estimated_effort_hours": 4
+  },
+  "status": "implemented",
+  "assigned_to": "forge",
+  "retry_count": 0,
+  "implementation": {
+    "staging_id": "forge_b7380742_1772046484",
+    "implemented_at": "2026-02-26T03:08:04.280146",
+    "implemented_by": "abf0df2b-e89a-4650-a4a0-bc3184111cf9"
+  }
+}

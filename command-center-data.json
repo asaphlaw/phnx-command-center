@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T21:29:54.220591Z",
+  "last_updated": "2026-02-25T21:46:42.315675Z",
   "timestamp": 1772054994,
   "session": {
     "id": "fredericklaw",
@@ -30,109 +30,9 @@
         "lastRun": "2m ago"
       }
     },
-    "proposals": [
-      {
-        "id": "e0de3887",
-        "title": "System Improvement",
-        "type": "error_rate",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "da25abd0",
-        "title": "System Improvement",
-        "type": "process_failure",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "57e650bf",
-        "title": "Deploy MarketingBot Content",
-        "type": "automation",
-        "priority": "high",
-        "impact": "5-10 new leads/week",
-        "complexity": "low",
-        "status": "implemented",
-        "effort_hours": 1
-      },
-      {
-        "id": "e0e9ca4b",
-        "title": "System Improvement",
-        "type": "resource_constraint",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "32b35b13",
-        "title": "Implement 4-Pillar RSI System",
-        "type": "architecture_improvement",
-        "priority": "high",
-        "impact": "Save 10+ hours/week on maintenance",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "11b11a75",
-        "title": "Add Stripe Payment to Booking Bot",
-        "type": "revenue_optimization",
-        "priority": "medium",
-        "impact": "Reduce no-shows by 50%, +$300/month revenue protection",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "e0b413ad",
-        "title": "System Improvement",
-        "type": "error_rate",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "2bb2b022",
-        "title": "Implement 4-Pillar RSI System",
-        "type": "architecture_improvement",
-        "priority": "high",
-        "impact": "Save 10+ hours/week on maintenance",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "9a56f631",
-        "title": "System Improvement",
-        "type": "resource_constraint",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      },
-      {
-        "id": "d7e7f255",
-        "title": "System Improvement",
-        "type": "process_failure",
-        "priority": "medium",
-        "impact": "",
-        "complexity": "medium",
-        "status": "implemented",
-        "effort_hours": 4
-      }
-    ],
-    "proposals_count": 10
+    "proposals": [],
+    "proposals_count": 0,
+    "proposals_archived": 54
   },
   "infrastructure": {
     "core": {

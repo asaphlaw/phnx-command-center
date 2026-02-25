@@ -1,0 +1,294 @@
+2026-02-26 03:03:17,646 - WARDEN - INFO - Creating Constitution...
+2026-02-26 03:03:17,646 - WARDEN - INFO - ✅ Constitution created: /Users/fredericklaw/.openclaw/workspace/projects/lobster-project/constitution/CONSTITUTION.md
+2026-02-26 03:03:17,646 - WARDEN - INFO - Warden initialized [ID: b2d9d7bf-1a5a-4d94-bcb3-8511bdd43315]
+2026-02-26 03:03:17,646 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 03:03:17,646 - WARDEN - INFO - ============================================================
+2026-02-26 03:03:17,646 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 03:03:17,646 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 03:03:17,646 - WARDEN - INFO - ============================================================
+2026-02-26 03:03:17,646 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_e080167d_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_ece43b72_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_6c072594_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_5c7779c4_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_52af93ba_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_0adab403_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_9ce4bf56_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_1741eecf_1772046193_1772046195.json
+2026-02-26 03:03:17,646 - WARDEN - INFO - Found approved validation: val_forge_d0b3b588_1772046193_1772046195.json
+2026-02-26 03:03:17,647 - WARDEN - INFO - Found approved validation: val_forge_1f8a3df5_1772046192_1772046195.json
+2026-02-26 03:03:17,647 - WARDEN - INFO - Reviewing 10 validations...
+2026-02-26 03:03:17,647 - WARDEN - INFO - Deploying: forge_e080167d_1772046193
+2026-02-26 03:03:17,647 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_e080167d_1772046193
+2026-02-26 03:03:17,647 - WARDEN - INFO - ✅ Successfully deployed: forge_e080167d_1772046193
+2026-02-26 03:03:17,647 - WARDEN - INFO - Deploying: forge_ece43b72_1772046193
+2026-02-26 03:03:17,648 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_ece43b72_1772046193
+2026-02-26 03:03:17,648 - WARDEN - INFO - ✅ Successfully deployed: forge_ece43b72_1772046193
+2026-02-26 03:03:17,648 - WARDEN - INFO - Deploying: forge_6c072594_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_6c072594_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - ✅ Successfully deployed: forge_6c072594_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - Deploying: forge_5c7779c4_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_5c7779c4_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - ✅ Successfully deployed: forge_5c7779c4_1772046193
+2026-02-26 03:03:17,649 - WARDEN - INFO - Deploying: forge_52af93ba_1772046193
+2026-02-26 03:03:17,650 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_52af93ba_1772046193
+2026-02-26 03:03:17,650 - WARDEN - INFO - ✅ Successfully deployed: forge_52af93ba_1772046193
+2026-02-26 03:03:17,650 - WARDEN - INFO - Deploying: forge_0adab403_1772046193
+2026-02-26 03:03:17,650 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_0adab403_1772046193
+2026-02-26 03:03:17,651 - WARDEN - INFO - ✅ Successfully deployed: forge_0adab403_1772046193
+2026-02-26 03:03:17,651 - WARDEN - INFO - Deploying: forge_9ce4bf56_1772046193
+2026-02-26 03:03:17,651 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_9ce4bf56_1772046193
+2026-02-26 03:03:17,651 - WARDEN - INFO - ✅ Successfully deployed: forge_9ce4bf56_1772046193
+2026-02-26 03:03:17,651 - WARDEN - INFO - Deploying: forge_1741eecf_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_1741eecf_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - ✅ Successfully deployed: forge_1741eecf_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - Deploying: forge_d0b3b588_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_d0b3b588_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - ✅ Successfully deployed: forge_d0b3b588_1772046193
+2026-02-26 03:03:17,652 - WARDEN - INFO - Deploying: forge_1f8a3df5_1772046192
+2026-02-26 03:03:17,653 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_1f8a3df5_1772046192
+2026-02-26 03:03:17,653 - WARDEN - INFO - ✅ Successfully deployed: forge_1f8a3df5_1772046192
+2026-02-26 03:03:17,653 - WARDEN - INFO - ============================================================
+2026-02-26 03:03:17,653 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 03:03:17,653 - WARDEN - INFO - Deployed: 10
+2026-02-26 03:03:17,653 - WARDEN - INFO - Escalated: 0
+2026-02-26 03:03:17,653 - WARDEN - INFO - Rejected: 0
+2026-02-26 03:03:17,653 - WARDEN - INFO - ============================================================
+2026-02-26 03:08:08,573 - WARDEN - INFO - Warden initialized [ID: e81f275e-bcfa-4e15-8d6f-85ad130be9f4]
+2026-02-26 03:08:08,573 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 03:08:08,573 - WARDEN - INFO - ============================================================
+2026-02-26 03:08:08,574 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 03:08:08,574 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 03:08:08,574 - WARDEN - INFO - ============================================================
+2026-02-26 03:08:08,574 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 03:08:08,575 - WARDEN - INFO - Found approved validation: val_forge_dcf136e2_1772046484_1772046486.json
+2026-02-26 03:08:08,575 - WARDEN - INFO - Found approved validation: val_forge_f8c609e6_1772046484_1772046486.json
+2026-02-26 03:08:08,575 - WARDEN - INFO - Found approved validation: val_forge_3868ef10_1772046484_1772046486.json
+2026-02-26 03:08:08,576 - WARDEN - INFO - Found approved validation: val_forge_2927098f_1772046484_1772046486.json
+2026-02-26 03:08:08,577 - WARDEN - INFO - Found approved validation: val_forge_b7380742_1772046484_1772046486.json
+2026-02-26 03:08:08,577 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 03:08:08,577 - WARDEN - INFO - Deploying: forge_dcf136e2_1772046484
+2026-02-26 03:08:08,578 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_dcf136e2_1772046484
+2026-02-26 03:08:08,578 - WARDEN - INFO - ✅ Successfully deployed: forge_dcf136e2_1772046484
+2026-02-26 03:08:08,579 - WARDEN - INFO - Deploying: forge_f8c609e6_1772046484
+2026-02-26 03:08:08,579 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_f8c609e6_1772046484
+2026-02-26 03:08:08,579 - WARDEN - INFO - ✅ Successfully deployed: forge_f8c609e6_1772046484
+2026-02-26 03:08:08,580 - WARDEN - INFO - Deploying: forge_3868ef10_1772046484
+2026-02-26 03:08:08,580 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_3868ef10_1772046484
+2026-02-26 03:08:08,580 - WARDEN - INFO - ✅ Successfully deployed: forge_3868ef10_1772046484
+2026-02-26 03:08:08,581 - WARDEN - INFO - Deploying: forge_2927098f_1772046484
+2026-02-26 03:08:08,581 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_2927098f_1772046484
+2026-02-26 03:08:08,581 - WARDEN - INFO - ✅ Successfully deployed: forge_2927098f_1772046484
+2026-02-26 03:08:08,583 - WARDEN - INFO - Deploying: forge_b7380742_1772046484
+2026-02-26 03:08:08,584 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_b7380742_1772046484
+2026-02-26 03:08:08,584 - WARDEN - INFO - ✅ Successfully deployed: forge_b7380742_1772046484
+2026-02-26 03:08:08,584 - WARDEN - INFO - ============================================================
+2026-02-26 03:08:08,584 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 03:08:08,584 - WARDEN - INFO - Deployed: 5
+2026-02-26 03:08:08,584 - WARDEN - INFO - Escalated: 0
+2026-02-26 03:08:08,584 - WARDEN - INFO - Rejected: 0
+2026-02-26 03:08:08,584 - WARDEN - INFO - ============================================================
+2026-02-26 03:12:18,965 - WARDEN - INFO - Warden initialized [ID: 4f07bdb5-896c-4f83-ba30-ab9cd7549d54]
+2026-02-26 03:12:19,008 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 03:12:19,008 - WARDEN - INFO - ============================================================
+2026-02-26 03:12:19,008 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 03:12:19,008 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 03:12:19,008 - WARDEN - INFO - ============================================================
+2026-02-26 03:12:19,030 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 03:12:19,167 - WARDEN - INFO - Found approved validation: val_forge_0296f899_1772046734_1772046736.json
+2026-02-26 03:12:19,191 - WARDEN - INFO - Found approved validation: val_forge_6f27fdda_1772046734_1772046736.json
+2026-02-26 03:12:19,297 - WARDEN - INFO - Found approved validation: val_forge_d7c00a63_1772046734_1772046736.json
+2026-02-26 03:12:19,298 - WARDEN - INFO - Found approved validation: val_forge_a97c4e9c_1772046734_1772046736.json
+2026-02-26 03:12:19,366 - WARDEN - INFO - Found approved validation: val_forge_e69c40ce_1772046734_1772046736.json
+2026-02-26 03:12:19,367 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 03:12:19,368 - WARDEN - INFO - Deploying: forge_0296f899_1772046734
+2026-02-26 03:12:19,372 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_0296f899_1772046734
+2026-02-26 03:12:19,373 - WARDEN - INFO - ✅ Successfully deployed: forge_0296f899_1772046734
+2026-02-26 03:12:19,373 - WARDEN - INFO - Deploying: forge_6f27fdda_1772046734
+2026-02-26 03:12:19,376 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_6f27fdda_1772046734
+2026-02-26 03:12:19,376 - WARDEN - INFO - ✅ Successfully deployed: forge_6f27fdda_1772046734
+2026-02-26 03:12:19,377 - WARDEN - INFO - Deploying: forge_d7c00a63_1772046734
+2026-02-26 03:12:19,378 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_d7c00a63_1772046734
+2026-02-26 03:12:19,379 - WARDEN - INFO - ✅ Successfully deployed: forge_d7c00a63_1772046734
+2026-02-26 03:12:19,379 - WARDEN - INFO - Deploying: forge_a97c4e9c_1772046734
+2026-02-26 03:12:19,382 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_a97c4e9c_1772046734
+2026-02-26 03:12:19,382 - WARDEN - INFO - ✅ Successfully deployed: forge_a97c4e9c_1772046734
+2026-02-26 03:12:19,382 - WARDEN - INFO - Deploying: forge_e69c40ce_1772046734
+2026-02-26 03:12:19,384 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_e69c40ce_1772046734
+2026-02-26 03:12:19,384 - WARDEN - INFO - ✅ Successfully deployed: forge_e69c40ce_1772046734
+2026-02-26 03:12:19,384 - WARDEN - INFO - ============================================================
+2026-02-26 03:12:19,384 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 03:12:19,384 - WARDEN - INFO - Deployed: 5
+2026-02-26 03:12:19,384 - WARDEN - INFO - Escalated: 0
+2026-02-26 03:12:19,384 - WARDEN - INFO - Rejected: 0
+2026-02-26 03:12:19,384 - WARDEN - INFO - ============================================================
+2026-02-26 03:15:22,016 - WARDEN - INFO - Warden initialized [ID: 18781a8e-5b75-4419-8b66-bcc90b95fd56]
+2026-02-26 03:15:22,016 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 03:15:22,016 - WARDEN - INFO - ============================================================
+2026-02-26 03:15:22,016 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 03:15:22,016 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 03:15:22,016 - WARDEN - INFO - ============================================================
+2026-02-26 03:15:22,016 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 03:15:22,018 - WARDEN - INFO - Found approved validation: val_forge_609aaf6a_1772046917_1772046919.json
+2026-02-26 03:15:22,018 - WARDEN - INFO - Found approved validation: val_forge_db1ea6b9_1772046917_1772046919.json
+2026-02-26 03:15:22,021 - WARDEN - INFO - Found approved validation: val_forge_95923fd5_1772046917_1772046919.json
+2026-02-26 03:15:22,021 - WARDEN - INFO - Found approved validation: val_forge_59cbc829_1772046917_1772046919.json
+2026-02-26 03:15:22,021 - WARDEN - INFO - Found approved validation: val_forge_564700a2_1772046917_1772046919.json
+2026-02-26 03:15:22,021 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 03:15:22,022 - WARDEN - INFO - Deploying: forge_609aaf6a_1772046917
+2026-02-26 03:15:22,022 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_609aaf6a_1772046917
+2026-02-26 03:15:22,023 - WARDEN - INFO - ✅ Successfully deployed: forge_609aaf6a_1772046917
+2026-02-26 03:15:22,023 - WARDEN - INFO - Deploying: forge_db1ea6b9_1772046917
+2026-02-26 03:15:22,024 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_db1ea6b9_1772046917
+2026-02-26 03:15:22,024 - WARDEN - INFO - ✅ Successfully deployed: forge_db1ea6b9_1772046917
+2026-02-26 03:15:22,024 - WARDEN - INFO - Deploying: forge_95923fd5_1772046917
+2026-02-26 03:15:22,025 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_95923fd5_1772046917
+2026-02-26 03:15:22,025 - WARDEN - INFO - ✅ Successfully deployed: forge_95923fd5_1772046917
+2026-02-26 03:15:22,025 - WARDEN - INFO - Deploying: forge_59cbc829_1772046917
+2026-02-26 03:15:22,026 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_59cbc829_1772046917
+2026-02-26 03:15:22,026 - WARDEN - INFO - ✅ Successfully deployed: forge_59cbc829_1772046917
+2026-02-26 03:15:22,026 - WARDEN - INFO - Deploying: forge_564700a2_1772046917
+2026-02-26 03:15:22,027 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_564700a2_1772046917
+2026-02-26 03:15:22,027 - WARDEN - INFO - ✅ Successfully deployed: forge_564700a2_1772046917
+2026-02-26 03:15:22,027 - WARDEN - INFO - ============================================================
+2026-02-26 03:15:22,027 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 03:15:22,027 - WARDEN - INFO - Deployed: 5
+2026-02-26 03:15:22,027 - WARDEN - INFO - Escalated: 0
+2026-02-26 03:15:22,027 - WARDEN - INFO - Rejected: 0
+2026-02-26 03:15:22,027 - WARDEN - INFO - ============================================================
+2026-02-26 03:29:48,981 - WARDEN - INFO - Warden initialized [ID: c9b8a4db-340c-415c-9b8a-96856a5f09e9]
+2026-02-26 03:29:48,981 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 03:29:48,982 - WARDEN - INFO - ============================================================
+2026-02-26 03:29:48,982 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 03:29:48,982 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 03:29:48,982 - WARDEN - INFO - ============================================================
+2026-02-26 03:29:48,982 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 03:29:48,982 - WARDEN - INFO - Found approved validation: val_forge_d1124353_1772047784_1772047786.json
+2026-02-26 03:29:48,983 - WARDEN - INFO - Found approved validation: val_forge_6d65d714_1772047784_1772047786.json
+2026-02-26 03:29:48,983 - WARDEN - INFO - Found approved validation: val_forge_952de058_1772047784_1772047786.json
+2026-02-26 03:29:48,984 - WARDEN - INFO - Found approved validation: val_forge_ae8574f0_1772047784_1772047786.json
+2026-02-26 03:29:48,987 - WARDEN - INFO - Found approved validation: val_forge_b4d86c84_1772047784_1772047786.json
+2026-02-26 03:29:48,988 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 03:29:48,989 - WARDEN - INFO - Deploying: forge_d1124353_1772047784
+2026-02-26 03:29:48,989 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_d1124353_1772047784
+2026-02-26 03:29:48,990 - WARDEN - INFO - ✅ Successfully deployed: forge_d1124353_1772047784
+2026-02-26 03:29:48,990 - WARDEN - INFO - Deploying: forge_6d65d714_1772047784
+2026-02-26 03:29:48,991 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_6d65d714_1772047784
+2026-02-26 03:29:48,991 - WARDEN - INFO - ✅ Successfully deployed: forge_6d65d714_1772047784
+2026-02-26 03:29:48,991 - WARDEN - INFO - Deploying: forge_952de058_1772047784
+2026-02-26 03:29:48,992 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_952de058_1772047784
+2026-02-26 03:29:48,992 - WARDEN - INFO - ✅ Successfully deployed: forge_952de058_1772047784
+2026-02-26 03:29:48,992 - WARDEN - INFO - Deploying: forge_ae8574f0_1772047784
+2026-02-26 03:29:48,993 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_ae8574f0_1772047784
+2026-02-26 03:29:48,993 - WARDEN - INFO - ✅ Successfully deployed: forge_ae8574f0_1772047784
+2026-02-26 03:29:48,993 - WARDEN - INFO - Deploying: forge_b4d86c84_1772047784
+2026-02-26 03:29:48,994 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_b4d86c84_1772047784
+2026-02-26 03:29:48,994 - WARDEN - INFO - ✅ Successfully deployed: forge_b4d86c84_1772047784
+2026-02-26 03:29:48,994 - WARDEN - INFO - ============================================================
+2026-02-26 03:29:48,994 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 03:29:48,994 - WARDEN - INFO - Deployed: 5
+2026-02-26 03:29:48,994 - WARDEN - INFO - Escalated: 0
+2026-02-26 03:29:48,994 - WARDEN - INFO - Rejected: 0
+2026-02-26 03:29:48,994 - WARDEN - INFO - ============================================================
+2026-02-26 04:20:14,922 - WARDEN - INFO - Warden initialized [ID: a49ae877-2bc8-4deb-b1c6-8a7f9c138dff]
+2026-02-26 04:20:14,923 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 04:20:14,923 - WARDEN - INFO - ============================================================
+2026-02-26 04:20:14,923 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 04:20:14,923 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 04:20:14,923 - WARDEN - INFO - ============================================================
+2026-02-26 04:20:14,923 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 04:20:14,925 - WARDEN - INFO - Found approved validation: val_forge_69ce5124_1772050810_1772050812.json
+2026-02-26 04:20:14,926 - WARDEN - INFO - Found approved validation: val_forge_7a93b8cb_1772050810_1772050812.json
+2026-02-26 04:20:14,927 - WARDEN - INFO - Found approved validation: val_forge_7a6c2678_1772050810_1772050812.json
+2026-02-26 04:20:14,927 - WARDEN - INFO - Found approved validation: val_forge_0ddb7da5_1772050810_1772050812.json
+2026-02-26 04:20:14,929 - WARDEN - INFO - Found approved validation: val_forge_81e8006c_1772050810_1772050812.json
+2026-02-26 04:20:14,930 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 04:20:14,930 - WARDEN - INFO - Deploying: forge_69ce5124_1772050810
+2026-02-26 04:20:14,931 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_69ce5124_1772050810
+2026-02-26 04:20:14,931 - WARDEN - INFO - ✅ Successfully deployed: forge_69ce5124_1772050810
+2026-02-26 04:20:14,931 - WARDEN - INFO - Deploying: forge_7a93b8cb_1772050810
+2026-02-26 04:20:14,932 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_7a93b8cb_1772050810
+2026-02-26 04:20:14,932 - WARDEN - INFO - ✅ Successfully deployed: forge_7a93b8cb_1772050810
+2026-02-26 04:20:14,932 - WARDEN - INFO - Deploying: forge_7a6c2678_1772050810
+2026-02-26 04:20:14,933 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_7a6c2678_1772050810
+2026-02-26 04:20:14,933 - WARDEN - INFO - ✅ Successfully deployed: forge_7a6c2678_1772050810
+2026-02-26 04:20:14,933 - WARDEN - INFO - Deploying: forge_0ddb7da5_1772050810
+2026-02-26 04:20:14,934 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_0ddb7da5_1772050810
+2026-02-26 04:20:14,934 - WARDEN - INFO - ✅ Successfully deployed: forge_0ddb7da5_1772050810
+2026-02-26 04:20:14,934 - WARDEN - INFO - Deploying: forge_81e8006c_1772050810
+2026-02-26 04:20:14,934 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_81e8006c_1772050810
+2026-02-26 04:20:14,935 - WARDEN - INFO - ✅ Successfully deployed: forge_81e8006c_1772050810
+2026-02-26 04:20:14,935 - WARDEN - INFO - ============================================================
+2026-02-26 04:20:14,935 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 04:20:14,935 - WARDEN - INFO - Deployed: 5
+2026-02-26 04:20:14,935 - WARDEN - INFO - Escalated: 0
+2026-02-26 04:20:14,935 - WARDEN - INFO - Rejected: 0
+2026-02-26 04:20:14,935 - WARDEN - INFO - ============================================================
+2026-02-26 04:36:43,248 - WARDEN - INFO - Warden initialized [ID: b996daf9-d8da-4e6e-bce7-48767ec5e643]
+2026-02-26 04:36:43,248 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 04:36:43,248 - WARDEN - INFO - ============================================================
+2026-02-26 04:36:43,248 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 04:36:43,248 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 04:36:43,248 - WARDEN - INFO - ============================================================
+2026-02-26 04:36:43,248 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 04:36:43,249 - WARDEN - INFO - Found approved validation: val_forge_89e842e4_1772051799_1772051801.json
+2026-02-26 04:36:43,250 - WARDEN - INFO - Found approved validation: val_forge_d7e7f255_1772051799_1772051801.json
+2026-02-26 04:36:43,250 - WARDEN - INFO - Found approved validation: val_forge_9a56f631_1772051799_1772051801.json
+2026-02-26 04:36:43,251 - WARDEN - INFO - Found approved validation: val_forge_2bb2b022_1772051799_1772051801.json
+2026-02-26 04:36:43,253 - WARDEN - INFO - Found approved validation: val_forge_daa7428a_1772051799_1772051801.json
+2026-02-26 04:36:43,255 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 04:36:43,256 - WARDEN - INFO - Deploying: forge_89e842e4_1772051799
+2026-02-26 04:36:43,257 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_89e842e4_1772051799
+2026-02-26 04:36:43,257 - WARDEN - INFO - ✅ Successfully deployed: forge_89e842e4_1772051799
+2026-02-26 04:36:43,257 - WARDEN - INFO - Deploying: forge_d7e7f255_1772051799
+2026-02-26 04:36:43,258 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_d7e7f255_1772051799
+2026-02-26 04:36:43,258 - WARDEN - INFO - ✅ Successfully deployed: forge_d7e7f255_1772051799
+2026-02-26 04:36:43,258 - WARDEN - INFO - Deploying: forge_9a56f631_1772051799
+2026-02-26 04:36:43,259 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_9a56f631_1772051799
+2026-02-26 04:36:43,259 - WARDEN - INFO - ✅ Successfully deployed: forge_9a56f631_1772051799
+2026-02-26 04:36:43,259 - WARDEN - INFO - Deploying: forge_2bb2b022_1772051799
+2026-02-26 04:36:43,259 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_2bb2b022_1772051799
+2026-02-26 04:36:43,259 - WARDEN - INFO - ✅ Successfully deployed: forge_2bb2b022_1772051799
+2026-02-26 04:36:43,260 - WARDEN - INFO - Deploying: forge_daa7428a_1772051799
+2026-02-26 04:36:43,260 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_daa7428a_1772051799
+2026-02-26 04:36:43,260 - WARDEN - INFO - ✅ Successfully deployed: forge_daa7428a_1772051799
+2026-02-26 04:36:43,260 - WARDEN - INFO - ============================================================
+2026-02-26 04:36:43,260 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 04:36:43,260 - WARDEN - INFO - Deployed: 5
+2026-02-26 04:36:43,260 - WARDEN - INFO - Escalated: 0
+2026-02-26 04:36:43,260 - WARDEN - INFO - Rejected: 0
+2026-02-26 04:36:43,260 - WARDEN - INFO - ============================================================
+2026-02-26 05:06:49,504 - WARDEN - INFO - Warden initialized [ID: 3e61f0e8-d91b-425f-8463-b9e4c163baa9]
+2026-02-26 05:06:49,505 - WARDEN - INFO - 👑 Absolute authority active
+2026-02-26 05:06:49,505 - WARDEN - INFO - ============================================================
+2026-02-26 05:06:49,505 - WARDEN - INFO - WARDEN CYCLE STARTED
+2026-02-26 05:06:49,505 - WARDEN - INFO - 👑 Absolute authority engaged
+2026-02-26 05:06:49,505 - WARDEN - INFO - ============================================================
+2026-02-26 05:06:49,505 - WARDEN - INFO - 📜 Constitution loaded: 9 rules
+2026-02-26 05:06:49,506 - WARDEN - INFO - Found approved validation: val_forge_da25abd0_1772053605_1772053607.json
+2026-02-26 05:06:49,507 - WARDEN - INFO - Found approved validation: val_forge_e0e9ca4b_1772053605_1772053607.json
+2026-02-26 05:06:49,508 - WARDEN - INFO - Found approved validation: val_forge_32b35b13_1772053605_1772053607.json
+2026-02-26 05:06:49,510 - WARDEN - INFO - Found approved validation: val_forge_57e650bf_1772053605_1772053607.json
+2026-02-26 05:06:49,512 - WARDEN - INFO - Found approved validation: val_forge_11b11a75_1772053605_1772053607.json
+2026-02-26 05:06:49,513 - WARDEN - INFO - Reviewing 5 validations...
+2026-02-26 05:06:49,513 - WARDEN - INFO - Deploying: forge_da25abd0_1772053605
+2026-02-26 05:06:49,514 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_da25abd0_1772053605
+2026-02-26 05:06:49,514 - WARDEN - INFO - ✅ Successfully deployed: forge_da25abd0_1772053605
+2026-02-26 05:06:49,514 - WARDEN - INFO - Deploying: forge_e0e9ca4b_1772053605
+2026-02-26 05:06:49,515 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_e0e9ca4b_1772053605
+2026-02-26 05:06:49,515 - WARDEN - INFO - ✅ Successfully deployed: forge_e0e9ca4b_1772053605
+2026-02-26 05:06:49,515 - WARDEN - INFO - Deploying: forge_32b35b13_1772053605
+2026-02-26 05:06:49,515 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_32b35b13_1772053605
+2026-02-26 05:06:49,516 - WARDEN - INFO - ✅ Successfully deployed: forge_32b35b13_1772053605
+2026-02-26 05:06:49,516 - WARDEN - INFO - Deploying: forge_57e650bf_1772053605
+2026-02-26 05:06:49,516 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_57e650bf_1772053605
+2026-02-26 05:06:49,516 - WARDEN - INFO - ✅ Successfully deployed: forge_57e650bf_1772053605
+2026-02-26 05:06:49,516 - WARDEN - INFO - Deploying: forge_11b11a75_1772053605
+2026-02-26 05:06:49,517 - WARDEN - INFO - Generic deployment copied to: /Users/fredericklaw/.openclaw/workspace/rsi/deployed/forge_11b11a75_1772053605
+2026-02-26 05:06:49,518 - WARDEN - INFO - ✅ Successfully deployed: forge_11b11a75_1772053605
+2026-02-26 05:06:49,518 - WARDEN - INFO - ============================================================
+2026-02-26 05:06:49,518 - WARDEN - INFO - WARDEN CYCLE COMPLETE
+2026-02-26 05:06:49,518 - WARDEN - INFO - Deployed: 5
+2026-02-26 05:06:49,518 - WARDEN - INFO - Escalated: 0
+2026-02-26 05:06:49,518 - WARDEN - INFO - Rejected: 0
+2026-02-26 05:06:49,518 - WARDEN - INFO - ============================================================
